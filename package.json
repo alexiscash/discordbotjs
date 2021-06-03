@@ -4,7 +4,9 @@
   "description": "discord bot powered by discord.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/alexiscash/discordbotjs/issues"
   },
-  "homepage": "https://github.com/alexiscash/discordbotjs#readme"
+  "homepage": "https://github.com/alexiscash/discordbotjs#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
