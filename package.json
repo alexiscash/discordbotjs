@@ -1,0 +1,19 @@
+{
+  "name": "discordbotjs",
+  "version": "1.0.0",
+  "description": "discord bot powered by discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexiscash/discordbotjs.git"
+  },
+  "author": "Alexis Rangel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexiscash/discordbotjs/issues"
+  },
+  "homepage": "https://github.com/alexiscash/discordbotjs#readme"
+}
