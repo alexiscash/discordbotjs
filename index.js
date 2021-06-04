@@ -5,14 +5,14 @@ const fs = require('fs');
 //declare command prefix
 const prefix = '.';
 
+// client setup
 const { Client, Intents, Collection } = require('discord.js');
 const client = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
 });
 client.commands = new Collection();
 
-// use fs package to read filenames in ./commands and put them in an
-// array: string
+// read filenames in ./commands and put them in an array: string
 const commandFiles = fs
   .readdirSync('./commands')
   .filter((file) => file.endsWith('.js'));
